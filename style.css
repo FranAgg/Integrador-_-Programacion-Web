@@ -186,6 +186,7 @@ h6 {
 }
 
 .contenido img{
+    object-fit: contain;
     width: 150px;
     height: 150px;
     text-align: center;
