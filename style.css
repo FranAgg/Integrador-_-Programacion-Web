@@ -116,6 +116,30 @@ p {
     grid-template-rows: auto 1fr auto;
 }
 
+.paginacion {
+    text-align: center;
+
+}
+
+.paginacion a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.paginacion a.active {
+    background-color: violet;
+    color: black;
+    border-radius: 5px;
+}
+
+.paginacion a:hover:not(.active) {
+    background-color: rgb(105, 105, 105);
+    color: white;
+    border-radius: 5px;
+}
+
 footer {
     background-color: #111111;
     padding: 20px;
