@@ -9,37 +9,43 @@
     crossorigin="anonymous"></script>
 </head>
 <body>
-    
-    <header>
-        <nav class="menu">
-            <h1><img id="logo" src="img\logo.png" height="35px" alt="logo"></h1>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="cont-formulario">
-        <div class="info-formulario">
-            <h2>Contactanos</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed temporibus aperiam, alias minus quae ipsam voluptatibus quibusdam sunt sint illo vel consequuntur praesentium quidem aliquid provident quo ea dolore animi?</p>
-            <a href="#"><i class="fa fa-phone"></i>123-456-789</a>
-            <a href="#"><i class="fa fa-instagram"></i>@FastFood</a>
-            <a href="#"><i class="fa fa-envelope"></i>fastfood@outlook.com</a>
-            <a href="#"><i class="fa fa-map-marked"></i>La Punta, San Luis</a>
+    <div class="container">
+        
+        <header>
+            <nav class="menu">
+                <h1><img id="logo" src="img\logo.png" height="35px" alt="logo"></h1>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+        <div class="cont-formulario">
+            <div class="info-formulario">
+                <h2>Contactanos</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed temporibus aperiam, alias minus quae ipsam voluptatibus quibusdam sunt sint illo vel consequuntur praesentium quidem aliquid provident quo ea dolore animi?</p>
+                <a href="#"><i class="fa fa-phone"></i>123-456-789</a>
+                <a href="#"><i class="fa fa-instagram"></i>@FastFood</a>
+                <a href="#"><i class="fa fa-envelope"></i>fastfood@outlook.com</a>
+                <a href="#"><i class="fa fa-map-marked"></i>La Punta, San Luis</a>
+            </div>
+            <form action="#" autocomplete="off">
+                <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="campo-texto">
+                <input type="email" name="correo" placeholder="Ingresa tu correo" class="campo-texto">
+                <textarea name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
+                <input type="submit" name="enviar" value="enviar mensaje" class="bt-enviar">
+            </form>
         </div>
-        <form action="#" autocomplete="off">
-            <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="campo-texto">
-            <input type="email" name="correo" placeholder="Ingresa tu correo" class="campo-texto">
-            <textarea name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
-            <input type="submit" name="enviar" value="enviar mensaje" class="bt-enviar">
-        </form>
+        </main>
+
+        <footer>
+            <p>&copy; FastFood</p>
+        </footer>
+
     </div>
-
-
-   <footer><p>&copy; FastFood</p></footer>
 </body>
 
 </html>

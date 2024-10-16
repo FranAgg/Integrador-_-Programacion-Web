@@ -110,6 +110,12 @@ p {
     background: purple;
 }
 
+.container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
 footer {
     background-color: #111111;
     padding: 20px;
