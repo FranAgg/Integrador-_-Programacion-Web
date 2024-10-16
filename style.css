@@ -96,11 +96,11 @@ p {
 
 .cont-formulario .bt-enviar {
     padding: 15px;
-    font-size: 16px;
+    font-size: 20px;
     border: none;
     outline: 0px;
     background: violet;
-    color: white;
+    color: black;
     border-radius: 3px;
     cursor: pointer;
     transition: all 300ms ease;
@@ -108,6 +108,7 @@ p {
 
 .cont-formulario .bt-enviar:hover {
     background: purple;
+    color: white;
 }
 
 .container {
@@ -204,7 +205,7 @@ h6 {
 .contenido .bt-comprar {
     text-align: center;
     font-size: 24px;
-    color: white;
+    color: black;
     background-color: violet;
     width: 100%;
     padding: 15px;
@@ -219,6 +220,7 @@ h6 {
 
 .contenido .bt-comprar:hover {
     background-color: purple;
+    color: white;
 }
     
 
