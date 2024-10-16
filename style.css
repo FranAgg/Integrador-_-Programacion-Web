@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Impact','Franklin Gothic Medium';
+}
+
+body{
+    background-color: black;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+nav {
+    background-color: #111111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:3px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 100;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: violet;
+}
+
+p {
+    color: white;
+}
+
+.cont-formulario {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 50px;
+}
+
+.cont-formulario h2 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.cont-formulario p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.cont-formulario a {
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: violet;
+    font-weight: 300;
+}
+
+.cont-formulario a i {
+    color: violet;
+    margin-right: 10px;
+}
+
+.cont-formulario form .campo-texto, textarea {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid violet;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.cont-formulario form textarea {
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+
+.cont-formulario .bt-enviar {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: violet;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.cont-formulario .bt-enviar:hover {
+    background: purple;
+}
+
+footer {
+    background-color: #111111;
+    padding: 20px;
+    margin: 0;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
