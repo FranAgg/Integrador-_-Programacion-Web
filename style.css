@@ -234,3 +234,17 @@ footer p {
     text-align: center;
     color: white;
 }
+
+.carrusel-conteiner {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+}
+
+#carrusel-imagenes {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
