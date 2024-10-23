@@ -248,3 +248,24 @@ footer p {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+.carrusel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.izq {
+    left: 10px; /* Flecha a la izquierda */
+}
+
+.der {
+    right: 10px; /* Flecha a la derecha */
+}
+
