@@ -235,18 +235,25 @@ footer p {
     color: white;
 }
 
-.carrusel-conteiner {
-    width: 100%;
+.carrusel-container {
+    width: 40%; 
     max-width: 800px;
-    margin: 50px auto;
-    position: relative;
+    margin: 0 auto; 
+    margin-top: 20px;
+    margin-bottom: 250px;
+    position: relative; 
 }
 
 #carrusel-imagenes {
-    width: 100%;
-    height: auto;
+    width: 250px; 
+    height: 250px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 25%;
+    margin-right: 25%;
+    object-fit: contain;
+    
+
 }
 .carrusel-btn {
     position: absolute;
@@ -259,16 +266,26 @@ footer p {
     padding: 10px;
     cursor: pointer;
     z-index: 1;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
 }
 
-.izq {
-    left: 10px; /* Flecha a la izquierda */
+
+.carrusel-btn-izq {
+    left: 10px; 
 }
 
-.der {
-    right: 10px; /* Flecha a la derecha */
+
+.carrusel-btn-der {
+    right: 10px; 
 }
+
 
 .carrusel-btn:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
 }
